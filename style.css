@@ -143,3 +143,38 @@ hr {
 .total p, .total small {
 	color: var(--medium-brown);
 }
+
+/* Mobile settings */
+@media screen and (max-width: 1080px) {
+	body section {
+		width: 90%;
+		height: 80%;
+	}
+
+	.balance p {
+		font-size: 2.5vh;
+	}
+
+	.balance strong {
+		font-size: 4vh;
+	}
+
+	.graph-subtitle { font-size: 2vh; color: var(--medium-brown); }
+
+	.spending h3 {
+		font-size: 3.5vh;
+	}
+
+	.total {
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.total p, .total small {
+		font-size: 2vh;
+	}
+
+	.total pre strong { font-size: 2vh; }
+
+	.total-value { font-size: 3vh; }
+}
