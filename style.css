@@ -101,6 +101,7 @@ body section article {
 .graph-bar {
 	border-radius: 5px;
 	position: relative;
+	align-self: end;
 }
 
 .graph-bar[title]:hover:after {
